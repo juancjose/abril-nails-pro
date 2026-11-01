@@ -14,3 +14,7 @@ Rediseño premium para **Abril Nails**, estudio de uñas en Beccar, San Isidro. 
 
 ## Placeholders
 - Horarios (marcados en el sitio). La guía de estilos usa ilustraciones CSS hasta tener fotos reales.
+
+## Performance
+- Fuentes self-hosted (woff2, subset latin) con `preload`: sin dependencias de terceros en el render.
+- Imágenes WebP con `srcset`/`sizes`, `width`/`height` explícitos (CLS ≈ 0) y `fetchpriority` en la imagen principal.
